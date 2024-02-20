@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>컴퓨터와 섯다!</title>
+    <link rel="stylesheet" href="css/css.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/rnd.js"></script>
+    <script src="js/rst.js"></script>
+    <script src="js/turn.js"></script>
+    <script src="js/card.js"></script>
+    <script src="js/sum.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <!-- 컴퓨터 박스-->
+        <div class="comBox">
+            <div class="col">
+
+                <div class="slideBox">
+                    <div class="sbox">
+                        <img src="images/back.jpg" alt="back1" class="back" id="back1">
+                    </div>
+                </div>
+                <div class="imgBoxs" id="imgBox1">
+                    <img src="images/1_1.jpg" alt="1_1" class="num1" id="num1">
+                    <img src="images/1_2.jpg" alt="1_2" class="num2" id="num2">
+                    <img src="images/2_1.jpg" alt="2_1" class="num3" id="num3">
+                    <img src="images/2_2.jpg" alt="2_2" class="num4" id="num4">
+                    <img src="images/3_1.jpg" alt="3_1" class="num5" id="num5">
+                    <img src="images/3_2.jpg" alt="3_2" class="num6" id="num6">
+                    <img src="images/4_1.jpg" alt="4_1" class="num7" id="num7">
+                    <img src="images/4_2.jpg" alt="4_2" class="num8" id="num8">
+                    <img src="images/5_1.jpg" alt="5_1" class="num9" id="num9">
+                    <img src="images/5_2.jpg" alt="5_2" class="num10" id="num10">
+                    <img src="images/6_1.jpg" alt="6_1" class="num11" id="num11">
+                    <img src="images/6_2.jpg" alt="6_2" class="num12" id="num12">
+                    <img src="images/7_1.jpg" alt="7_1" class="num13" id="num13">
+                    <img src="images/7_2.jpg" alt="7_2" class="num14" id="num14">
+                    <img src="images/8_1.jpg" alt="8_1" class="num15" id="num15">
+                    <img src="images/8_2.jpg" alt="8_2" class="num16" id="num16">
+                    <img src="images/9_1.jpg" alt="9_1" class="num17" id="num17">
+                    <img src="images/9_2.jpg" alt="9_2" class="num18" id="num18">
+                    <img src="images/10_1.jpg" alt="10_1" class="num19" id="num19">
+                    <img src="images/10_2.jpg" alt="10_2" class="num20" id="num20">
+                </div>
+
+                <div class="slideBox">
+                    <div class="sbox">
+                        <img src="images/back.jpg" alt="back2" class="back" id="back2">
+                    </div>
+                </div>
+                <div class="imgBoxs" id="imgBox3">
+                    <img src="images/1_1.jpg" alt="1_1" class="num1" id="num1">
+                    <img src="images/1_2.jpg" alt="1_2" class="num2" id="num2">
+                    <img src="images/2_1.jpg" alt="2_1" class="num3" id="num3">
+                    <img src="images/2_2.jpg" alt="2_2" class="num4" id="num4">
+                    <img src="images/3_1.jpg" alt="3_1" class="num5" id="num5">
+                    <img src="images/3_2.jpg" alt="3_2" class="num6" id="num6">
+                    <img src="images/4_1.jpg" alt="4_1" class="num7" id="num7">
+                    <img src="images/4_2.jpg" alt="4_2" class="num8" id="num8">
+                    <img src="images/5_1.jpg" alt="5_1" class="num9" id="num9">
+                    <img src="images/5_2.jpg" alt="5_2" class="num10" id="num10">
+                    <img src="images/6_1.jpg" alt="6_1" class="num11" id="num11">
+                    <img src="images/6_2.jpg" alt="6_2" class="num12" id="num12">
+                    <img src="images/7_1.jpg" alt="7_1" class="num13" id="num13">
+                    <img src="images/7_2.jpg" alt="7_2" class="num14" id="num14">
+                    <img src="images/8_1.jpg" alt="8_1" class="num15" id="num15">
+                    <img src="images/8_2.jpg" alt="8_2" class="num16" id="num16">
+                    <img src="images/9_1.jpg" alt="9_1" class="num17" id="num17">
+                    <img src="images/9_2.jpg" alt="9_2" class="num18" id="num18">
+                    <img src="images/10_1.jpg" alt="10_1" class="num19" id="num19">
+                    <img src="images/10_2.jpg" alt="10_2" class="num20" id="num20">
+                </div>
+
+                <div class="slideBox">
+                    <div class="sbox">
+                        <img src="images/back.jpg" alt="back2" class="back" id="back2">
+                    </div>
+                </div>
+                <div class="imgBoxs" id="imgBox5">
+                    <img src="images/1_1.jpg" alt="1_1" class="num1" id="num1">
+                    <img src="images/1_2.jpg" alt="1_2" class="num2" id="num2">
+                    <img src="images/2_1.jpg" alt="2_1" class="num3" id="num3">
+                    <img src="images/2_2.jpg" alt="2_2" class="num4" id="num4">
+                    <img src="images/3_1.jpg" alt="3_1" class="num5" id="num5">
+                    <img src="images/3_2.jpg" alt="3_2" class="num6" id="num6">
+                    <img src="images/4_1.jpg" alt="4_1" class="num7" id="num7">
+                    <img src="images/4_2.jpg" alt="4_2" class="num8" id="num8">
+                    <img src="images/5_1.jpg" alt="5_1" class="num9" id="num9">
+                    <img src="images/5_2.jpg" alt="5_2" class="num10" id="num10">
+                    <img src="images/6_1.jpg" alt="6_1" class="num11" id="num11">
+                    <img src="images/6_2.jpg" alt="6_2" class="num12" id="num12">
+                    <img src="images/7_1.jpg" alt="7_1" class="num13" id="num13">
+                    <img src="images/7_2.jpg" alt="7_2" class="num14" id="num14">
+                    <img src="images/8_1.jpg" alt="8_1" class="num15" id="num15">
+                    <img src="images/8_2.jpg" alt="8_2" class="num16" id="num16">
+                    <img src="images/9_1.jpg" alt="9_1" class="num17" id="num17">
+                    <img src="images/9_2.jpg" alt="9_2" class="num18" id="num18">
+                    <img src="images/10_1.jpg" alt="10_1" class="num19" id="num19">
+                    <img src="images/10_2.jpg" alt="10_2" class="num20" id="num20">
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 메인 박스 -->
+        <div class="mainBox">
+
+        </div>
+
+        <!-- 유저 박스 -->
+
+        <div class="userBox">
+            <div class="col">
+
+                <div class="slideBox">
+                    <div class="sbox">
+                        <img src="images/back.jpg" alt="back3" class="back" id="back3">
+                    </div>
+                </div>
+                <div class="imgBoxs" id="imgBox2">
+                    <img src="images/1_1.jpg" alt="1_1" class="num1" id="num1">
+                    <img src="images/1_2.jpg" alt="1_2" class="num2" id="num2">
+                    <img src="images/2_1.jpg" alt="2_1" class="num3" id="num3">
+                    <img src="images/2_2.jpg" alt="2_2" class="num4" id="num4">
+                    <img src="images/3_1.jpg" alt="3_1" class="num5" id="num5">
+                    <img src="images/3_2.jpg" alt="3_2" class="num6" id="num6">
+                    <img src="images/4_1.jpg" alt="4_1" class="num7" id="num7">
+                    <img src="images/4_2.jpg" alt="4_2" class="num8" id="num8">
+                    <img src="images/5_1.jpg" alt="5_1" class="num9" id="num9">
+                    <img src="images/5_2.jpg" alt="5_2" class="num10" id="num10">
+                    <img src="images/6_1.jpg" alt="6_1" class="num11" id="num11">
+                    <img src="images/6_2.jpg" alt="6_2" class="num12" id="num12">
+                    <img src="images/7_1.jpg" alt="7_1" class="num13" id="num13">
+                    <img src="images/7_2.jpg" alt="7_2" class="num14" id="num14">
+                    <img src="images/8_1.jpg" alt="8_1" class="num15" id="num15">
+                    <img src="images/8_2.jpg" alt="8_2" class="num16" id="num16">
+                    <img src="images/9_1.jpg" alt="9_1" class="num17" id="num17">
+                    <img src="images/9_2.jpg" alt="9_2" class="num18" id="num18">
+                    <img src="images/10_1.jpg" alt="10_1" class="num19" id="num19">
+                    <img src="images/10_2.jpg" alt="10_2" class="num20" id="num20">
+                </div>
+
+                <div class="slideBox">
+                    <div class="sbox">
+                        <img src="images/back.jpg" alt="back4" class="back" id="back4">
+                    </div>
+                </div>
+                <div class="imgBoxs" id="imgBox4">
+                    <img src="images/1_1.jpg" alt="1_1" class="num1" id="num1">
+                    <img src="images/1_2.jpg" alt="1_2" class="num2" id="num2">
+                    <img src="images/2_1.jpg" alt="2_1" class="num3" id="num3">
+                    <img src="images/2_2.jpg" alt="2_2" class="num4" id="num4">
+                    <img src="images/3_1.jpg" alt="3_1" class="num5" id="num5">
+                    <img src="images/3_2.jpg" alt="3_2" class="num6" id="num6">
+                    <img src="images/4_1.jpg" alt="4_1" class="num7" id="num7">
+                    <img src="images/4_2.jpg" alt="4_2" class="num8" id="num8">
+                    <img src="images/5_1.jpg" alt="5_1" class="num9" id="num9">
+                    <img src="images/5_2.jpg" alt="5_2" class="num10" id="num10">
+                    <img src="images/6_1.jpg" alt="6_1" class="num11" id="num11">
+                    <img src="images/6_2.jpg" alt="6_2" class="num12" id="num12">
+                    <img src="images/7_1.jpg" alt="7_1" class="num13" id="num13">
+                    <img src="images/7_2.jpg" alt="7_2" class="num14" id="num14">
+                    <img src="images/8_1.jpg" alt="8_1" class="num15" id="num15">
+                    <img src="images/8_2.jpg" alt="8_2" class="num16" id="num16">
+                    <img src="images/9_1.jpg" alt="9_1" class="num17" id="num17">
+                    <img src="images/9_2.jpg" alt="9_2" class="num18" id="num18">
+                    <img src="images/10_1.jpg" alt="10_1" class="num19" id="num19">
+                    <img src="images/10_2.jpg" alt="10_2" class="num20" id="num20">
+                </div>
+
+                <div class="slideBox">
+                    <div class="sbox">
+                        <img src="images/back.jpg" alt="back4" class="back" id="back4">
+                    </div>
+                </div>
+                <div class="imgBoxs" id="imgBox6">
+                    <img src="images/1_1.jpg" alt="1_1" class="num1" id="num1">
+                    <img src="images/1_2.jpg" alt="1_2" class="num2" id="num2">
+                    <img src="images/2_1.jpg" alt="2_1" class="num3" id="num3">
+                    <img src="images/2_2.jpg" alt="2_2" class="num4" id="num4">
+                    <img src="images/3_1.jpg" alt="3_1" class="num5" id="num5">
+                    <img src="images/3_2.jpg" alt="3_2" class="num6" id="num6">
+                    <img src="images/4_1.jpg" alt="4_1" class="num7" id="num7">
+                    <img src="images/4_2.jpg" alt="4_2" class="num8" id="num8">
+                    <img src="images/5_1.jpg" alt="5_1" class="num9" id="num9">
+                    <img src="images/5_2.jpg" alt="5_2" class="num10" id="num10">
+                    <img src="images/6_1.jpg" alt="6_1" class="num11" id="num11">
+                    <img src="images/6_2.jpg" alt="6_2" class="num12" id="num12">
+                    <img src="images/7_1.jpg" alt="7_1" class="num13" id="num13">
+                    <img src="images/7_2.jpg" alt="7_2" class="num14" id="num14">
+                    <img src="images/8_1.jpg" alt="8_1" class="num15" id="num15">
+                    <img src="images/8_2.jpg" alt="8_2" class="num16" id="num16">
+                    <img src="images/9_1.jpg" alt="9_1" class="num17" id="num17">
+                    <img src="images/9_2.jpg" alt="9_2" class="num18" id="num18">
+                    <img src="images/10_1.jpg" alt="10_1" class="num19" id="num19">
+                    <img src="images/10_2.jpg" alt="10_2" class="num20" id="num20">
+                </div>
+
+            </div>
+        </div>
+        <div class="container2">
+            <div class="pbox1" id="pbox1">
+                <div class="userImgbox">
+                    <img src="images/1_1.jpg" alt="1_1" class="num1" id="num1">
+                    <img src="images/1_2.jpg" alt="1_2" class="num2" id="num2">
+                    <img src="images/2_1.jpg" alt="2_1" class="num3" id="num3">
+                    <img src="images/2_2.jpg" alt="2_2" class="num4" id="num4">
+                    <img src="images/3_1.jpg" alt="3_1" class="num5" id="num5">
+                    <img src="images/3_2.jpg" alt="3_2" class="num6" id="num6">
+                    <img src="images/4_1.jpg" alt="4_1" class="num7" id="num7">
+                    <img src="images/4_2.jpg" alt="4_2" class="num8" id="num8">
+                    <img src="images/5_1.jpg" alt="5_1" class="num9" id="num9">
+                    <img src="images/5_2.jpg" alt="5_2" class="num10" id="num10">
+                    <img src="images/6_1.jpg" alt="6_1" class="num11" id="num11">
+                    <img src="images/6_2.jpg" alt="6_2" class="num12" id="num12">
+                    <img src="images/7_1.jpg" alt="7_1" class="num13" id="num13">
+                    <img src="images/7_2.jpg" alt="7_2" class="num14" id="num14">
+                    <img src="images/8_1.jpg" alt="8_1" class="num15" id="num15">
+                    <img src="images/8_2.jpg" alt="8_2" class="num16" id="num16">
+                    <img src="images/9_1.jpg" alt="9_1" class="num17" id="num17">
+                    <img src="images/9_2.jpg" alt="9_2" class="num18" id="num18">
+                    <img src="images/10_1.jpg" alt="10_1" class="num19" id="num19">
+                    <img src="images/10_2.jpg" alt="10_2" class="num20" id="num20">
+                </div>
+            </div>
+            <div class="pbox2" id="pbox2">
+                <div class="userImgbox">
+                    <img src="images/1_1.jpg" alt="1_1" class="num1" id="num1">
+                    <img src="images/1_2.jpg" alt="1_2" class="num2" id="num2">
+                    <img src="images/2_1.jpg" alt="2_1" class="num3" id="num3">
+                    <img src="images/2_2.jpg" alt="2_2" class="num4" id="num4">
+                    <img src="images/3_1.jpg" alt="3_1" class="num5" id="num5">
+                    <img src="images/3_2.jpg" alt="3_2" class="num6" id="num6">
+                    <img src="images/4_1.jpg" alt="4_1" class="num7" id="num7">
+                    <img src="images/4_2.jpg" alt="4_2" class="num8" id="num8">
+                    <img src="images/5_1.jpg" alt="5_1" class="num9" id="num9">
+                    <img src="images/5_2.jpg" alt="5_2" class="num10" id="num10">
+                    <img src="images/6_1.jpg" alt="6_1" class="num11" id="num11">
+                    <img src="images/6_2.jpg" alt="6_2" class="num12" id="num12">
+                    <img src="images/7_1.jpg" alt="7_1" class="num13" id="num13">
+                    <img src="images/7_2.jpg" alt="7_2" class="num14" id="num14">
+                    <img src="images/8_1.jpg" alt="8_1" class="num15" id="num15">
+                    <img src="images/8_2.jpg" alt="8_2" class="num16" id="num16">
+                    <img src="images/9_1.jpg" alt="9_1" class="num17" id="num17">
+                    <img src="images/9_2.jpg" alt="9_2" class="num18" id="num18">
+                    <img src="images/10_1.jpg" alt="10_1" class="num19" id="num19">
+                    <img src="images/10_2.jpg" alt="10_2" class="num20" id="num20">
+                </div>
+            </div>
+            <div class="pbox3" id="pbox3">
+                <div class="userImgbox">
+                    <img src="images/1_1.jpg" alt="1_1" class="num1" id="num1">
+                    <img src="images/1_2.jpg" alt="1_2" class="num2" id="num2">
+                    <img src="images/2_1.jpg" alt="2_1" class="num3" id="num3">
+                    <img src="images/2_2.jpg" alt="2_2" class="num4" id="num4">
+                    <img src="images/3_1.jpg" alt="3_1" class="num5" id="num5">
+                    <img src="images/3_2.jpg" alt="3_2" class="num6" id="num6">
+                    <img src="images/4_1.jpg" alt="4_1" class="num7" id="num7">
+                    <img src="images/4_2.jpg" alt="4_2" class="num8" id="num8">
+                    <img src="images/5_1.jpg" alt="5_1" class="num9" id="num9">
+                    <img src="images/5_2.jpg" alt="5_2" class="num10" id="num10">
+                    <img src="images/6_1.jpg" alt="6_1" class="num11" id="num11">
+                    <img src="images/6_2.jpg" alt="6_2" class="num12" id="num12">
+                    <img src="images/7_1.jpg" alt="7_1" class="num13" id="num13">
+                    <img src="images/7_2.jpg" alt="7_2" class="num14" id="num14">
+                    <img src="images/8_1.jpg" alt="8_1" class="num15" id="num15">
+                    <img src="images/8_2.jpg" alt="8_2" class="num16" id="num16">
+                    <img src="images/9_1.jpg" alt="9_1" class="num17" id="num17">
+                    <img src="images/9_2.jpg" alt="9_2" class="num18" id="num18">
+                    <img src="images/10_1.jpg" alt="10_1" class="num19" id="num19">
+                    <img src="images/10_2.jpg" alt="10_2" class="num20" id="num20">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <button class="btn1" type="button">시작</button>
+    <button class="btn2" type="button">리셋</button>
+</body>
+</html>
